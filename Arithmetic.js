@@ -7,6 +7,7 @@ function Arithmetic (a, b) {
   this.getDifference = () => this.a - this.b
   this.getMultiplication = () => this.a * this.b
   this.getDivision = () => this.a / this.b
+  this.getRemainder = () => this.a % this.b
 }
 
 module.exports = Arithmetic
