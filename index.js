@@ -38,3 +38,18 @@
 //   .catch(err => console.log(err))
 
 // console.log(5 / 7)
+
+class Rectangle {
+  constructor (width, height) {
+    this.width = width
+    this.height = height
+  }
+  printInfo () {
+    console.log(`Width: ${this.width}cm | Height: ${this.height}cm`)
+  }
+}
+
+const shape = new Rectangle(500, 900)
+
+// console.log(shape)
+shape.printInfo()
